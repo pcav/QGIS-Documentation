@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGIS User Guide 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-11 11:02\n"
+"POT-Creation-Date: 2013-02-28 19:17\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -266,12 +266,12 @@ msgstr ""
 msgid ""
 "Turn OTF on by default, by selecting the :guilabel:`CRS` tab of the "
 ":guilabel:`Options` dialog and selecting |checkbox| :guilabel:`Enable 'on "
-"the fly' reprojection by default`"
+"the fly' reprojection by default`."
 msgstr ""
 "Impostare la riproiezione in modalità predefinita attivando la casella di "
 "controllo |checkbox| :guilabel:`Effettua sempre la riproiezione al volo` "
-"nella scheda :guilabel:`SR` della finestra di dialogo :guilabel:`Opzioni`    "
-" "
+"nella scheda :guilabel:`SR` della finestra di dialogo :guilabel:`Opzioni`.   "
+"  "
 
 # ba550ca42c4e4c42ab83ca57b1ec524a
 #: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:132
@@ -292,7 +292,7 @@ msgstr ""
 "pulsante |geographic| :sup:`Stato SR`. "
 
 # 1f85df09b196470880d7dccf42f2a2a8
-#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:139
+#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:156
 msgid ""
 "The :guilabel:`Coordinate Reference System` tab of the :guilabel:`Project "
 "Properties` dialog contains five important components as shown in "
@@ -308,7 +308,7 @@ msgid ""
 "**Enable on the fly CRS transformation** - this checkbox is used to enable "
 "or disable OTF projection. When off, each layer is drawn using the "
 "coordinates as read from the data source and the components described below "
-"are inactive. When on, the coordinates in each layer are projected to the "
+"are inactive.When on, the coordinates in each layer are projected to the "
 "coordinate reference system defined for the map canvas."
 msgstr ""
 "**Abilita la riproiezione al volo** -  questa casella di controllo è usata "
@@ -342,20 +342,17 @@ msgstr ""
 # 8914686801f449778d1e01225380d7cd
 #: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:172
 msgid ""
-"**Search** - if you know the EPSG code, the identifier or the name for a "
+"**Filter** - if you know the EPSG code, the identifier or the name for a "
 "Coordinate Reference System, you can use the search feature to find it. "
-"Enter the identifier and click on **[Find]**. Use the |checkbox| "
-":guilabel:`Hide deprecated CRSs` checkbox to show only the currently valid "
-"projections."
+"Enter the EPSG code, the identifier or the name."
 msgstr ""
-"**Cerca** - se si conosce il codice EPSG, l’identificatore o il nome del SR "
-"che si vuole impostare, può essere usata questa area di ricerca per trovarlo "
-"nell’elenco, inserendo una voce di ricerca e facendo click su **[Cerca]**. "
-"Usare la casella |checkbox| :guilabel:`Nascondi i SR sconsigliati` per "
-"mostrare le solo le proiezioni attualmente approvate.  "
+"**Cerca** - se si conosce il codice EPSG, l’identificatore o il nome del "
+"sistema di riferimento che si vuole impostare, può essere usata questa area "
+"di ricerca per trovarlo nell’elenco. Inserire il codice EPSG, "
+"l'identificatore oppure il nome.  "
 
 # e0ea52c276bb492688d89362375acb8c
-#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:177
+#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:175
 msgid ""
 "**Recently used CRS** - if you have certain CRS that you frequently use in "
 "your everyday GIS work, these will be displayed in the table at the bottom "
@@ -368,12 +365,12 @@ msgstr ""
 "associato. "
 
 # af88a8c9a86b43c59b1ad4378b23f41a
-#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:183
+#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:180
 msgid "**Project Properties Dialog**"
 msgstr "**Finestra di dialogo Proprietà del progetto**"
 
 # 9255d7ab63de414baf318376df9ecaac
-#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:185
+#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:182
 msgid ""
 "If you open the :guilabel:`Project Properties` dialog from the "
 ":menuselection:`Edit` (Gnome, OSX) or :menuselection:`Settings` (KDE, "
@@ -386,7 +383,7 @@ msgstr ""
 "(SR)` per visualizzare le impostazioni del SR. "
 
 # 14a37c09531847c9b9ba05b4bd569412
-#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:190
+#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:187
 msgid ""
 "Opening the dialog from the |geographic| :guilabel:`CRS status` icon will "
 "automatically bring the :guilabel:`Coordinate Reference System` tab to the "
@@ -396,12 +393,12 @@ msgstr ""
 ":guilabel:`Stato SR`."
 
 # 28ed5ed2029640a9811ee47fafefd399
-#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:197
+#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:194
 msgid "Custom Coordinate Reference System"
 msgstr "Sistemi di riferimento personalizzati"
 
 # 0ae637dda1d94dc0b92184cbd554ac69
-#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:201
+#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:198
 msgid ""
 "If QGIS does not provide the coordinate reference system you need, you can "
 "define a custom CRS. To define a CRS, select |mIconNew|:guilabel:`Custom "
@@ -419,7 +416,7 @@ msgstr ""
 "dall’utente. "
 
 # c0b2f713dda34fc38283e8725cfb5f96
-#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:222
+#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:219
 msgid ""
 "Defining a custom CRS in QGIS requires a good understanding of the Proj.4 "
 "projection library. To begin, refer to the Cartographic Projection "
@@ -435,7 +432,7 @@ msgstr ""
 "all’indirizzo ftp://ftp.remotesensing.org/proj/OF90-284.pdf ). "
 
 # b3efef12e7584792944538bc41ad4fc6
-#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:228
+#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:225
 msgid ""
 "This manual describes the use of the ``proj.4`` and related command line "
 "utilities. The cartographic parameters used with ``proj.4`` are described in "
@@ -446,7 +443,7 @@ msgstr ""
 "manuale e sono identici a quelli usati da QGIS."
 
 # eaedba33babe4d06a4e53bc2ef6d9e3b
-#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:232
+#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:229
 msgid ""
 "The :guilabel:`Custom Coordinate Reference System Definition` dialog "
 "requires only two parameters to define a user CRS:"
@@ -456,17 +453,17 @@ msgstr ""
 "personalizzato: "
 
 # 7ee40f79edc649639bfd110a0fd83ed5
-#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:235
+#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:232
 msgid "a descriptive name and"
 msgstr "un nome descrittivo e "
 
 # 489aa504bbfb4c4ba9e97a3f831db7d0
-#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:236
+#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:233
 msgid "the cartographic parameters in PROJ.4 format."
 msgstr "i parametri cartografici in formato PROJ.4."
 
 # e7265de033ec48a38145b5aef7b4c243
-#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:238
+#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:235
 msgid ""
 "To create a new CRS, click the |mIconNew| :sup:`New` button and enter a "
 "descriptive name and the CRS parameters. After that you can save your CRS by "
@@ -477,7 +474,7 @@ msgstr ""
 "facendo click sul pulsante |mActionFileSave| :sup:`Salva`."
 
 # a1677b5adb7a4eb091dd14438795c454
-#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:242
+#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:239
 msgid ""
 "Note that the :guilabel:`Parameters` must begin with a ``+proj=``-block, to "
 "represent the new coordinate reference system."
@@ -486,7 +483,7 @@ msgstr ""
 "``+proj=``, per rappresentare il nuovo SR."
 
 # 96714f3a3cd24c6ba9ab42b770289780
-#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:245
+#: ../../source/docs/user_manual/working_with_projections/working_with_projections.rst:242
 msgid ""
 "You can test your CRS parameters to see if they give sane results by "
 "clicking on the **[Calculate]** button inside the :guilabel:`Test` block and "

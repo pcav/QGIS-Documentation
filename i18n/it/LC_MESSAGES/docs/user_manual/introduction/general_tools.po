@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGIS User Guide 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-11 11:02\n"
+"POT-Creation-Date: 2013-02-28 19:17\n"
 "PO-Revision-Date: 2012-12-03 01:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -161,8 +161,8 @@ msgstr ""
 
 # 7be7bdae1e034e208243d972f9e9857e
 #: ../../source/docs/user_manual/introduction/general_tools.rst:102
-msgid "a) Suspending Rendering"
-msgstr "a) Sospensione della visualizzazione"
+msgid "Suspending Rendering"
+msgstr "Sospensione della visualizzazione"
 
 # ce5c80689fe6422892ee8b7da530da0c
 #: ../../source/docs/user_manual/introduction/general_tools.rst:106
@@ -218,8 +218,8 @@ msgstr ""
 
 # 420edf433a354813bc263790f31e9c4e
 #: ../../source/docs/user_manual/introduction/general_tools.rst:123
-msgid "b) Setting Layer Add Option"
-msgstr "b) Controllare la visibilità dei layer quando sono caricati"
+msgid "Setting Layer Add Option"
+msgstr "Controllare la visibilità dei layer quando sono caricati"
 
 # c9db6ba0733744bca828dc974caad19e
 #: ../../source/docs/user_manual/introduction/general_tools.rst:128
@@ -272,8 +272,8 @@ msgstr ""
 
 # dc0adedb3e8644e7ba6a6fe3fcbfdced
 #: ../../source/docs/user_manual/introduction/general_tools.rst:155
-msgid "c) Updating the Map Display During Rendering"
-msgstr "c) Aggiornamento della mappa durante la visualizzazione"
+msgid "Updating the Map Display During Rendering"
+msgstr "Aggiornamento della mappa durante la visualizzazione"
 
 # 7f172a4b0e6543adbebbd370e9708f82
 #: ../../source/docs/user_manual/introduction/general_tools.rst:160
@@ -302,8 +302,8 @@ msgstr ""
 
 # 5a4e1549dcb8495c825f80eedd2b5978
 #: ../../source/docs/user_manual/introduction/general_tools.rst:173
-msgid "d) Influence Rendering Quality"
-msgstr "d) Modificare la qualità della visualizzazione"
+msgid "Influence Rendering Quality"
+msgstr "Modificare la qualità della visualizzazione"
 
 # 40ba629def5948fdadbaf0f21e2d1c2a
 #: ../../source/docs/user_manual/introduction/general_tools.rst:178
